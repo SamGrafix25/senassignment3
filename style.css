@@ -1,0 +1,229 @@
+body {
+    background-color: #212529 /* Light grey, change to any color you want */
+}
+
+
+/* Accordion styles */
+.red-accordion .accordion-button {
+    background-color: white;
+    color: red;
+}
+
+.red-accordion .accordion-button:not(.collapsed) {
+    background-color: #c82333;
+    color: #fff;
+    box-shadow: none;
+}
+
+.red-accordion .accordion-button:focus {
+    box-shadow: none;
+    border-color: #dc3545;
+}
+
+.red-accordion .accordion-collapse {
+    border-color: #dc3545;
+}
+
+/* Hero Section styles */
+.hero-section {
+    height: 70vh;
+    background: #212529;
+    color: white;
+    padding: 50px 20px;
+}
+
+/* Custom Button styles */
+.custom-btn {
+    background-color: #fff;
+    color: #c82333;
+    border: 2px solid #fff;
+    padding: 10px 25px;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.custom-btn:hover {
+    background-color: #c82333;
+    color: #fff;
+    border-color: #fff;
+}
+
+/* Primary button styles (for modal trigger) */
+.primary-btn {
+    background-color: #c82333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.primary-btn:hover {
+    background-color: #a71d2a;
+}
+
+
+.carousel-caption {
+    color: white;
+    text-shadow: 0 0 5px rgba(0,0,0,0.7);
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: #c82333;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    filter: none !important;
+    transition: background-color 0.3s ease;
+  }
+  
+  .carousel-control-prev-icon:hover,
+  .carousel-control-next-icon:hover {
+    background-color: #212529;
+  }
+  
+  .carousel-caption h5 {
+    font-weight: 700;
+    font-size: 1.5rem;
+  }
+  
+  .carousel-caption p {
+    font-size: 1.1rem;
+  }
+  .carousel-item img {
+    max-height: 400px;  
+    object-fit: cover;    
+    width: 100%;         
+  }
+
+  .contact-section {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .contact-section .form-label {
+    font-weight: 600;
+  }
+  
+  .contact-section .form-control:focus {
+    border-color: #c82333;
+    box-shadow: 0 0 8px rgba(200, 35, 51, 0.5);
+    transition: 0.3s ease;
+  }
+  
+  .contact-section .btn-danger {
+    border-radius: 25px;
+    padding: 10px 30px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-section .btn-danger:hover {
+    background-color: #a71d2a;
+  }
+  
+  .container h2{
+    color: white;
+  }
+
+  .nav-tabs .nav-link {
+    font-weight: 600;
+    border: none;
+    border-bottom: 3px solid transparent;
+    transition: border-color 0.3s ease;
+  }
+  
+  .nav-tabs .nav-link:hover {
+    border-color: #a71d2a;
+    color: #a71d2a !important;
+  }
+  
+  .nav-tabs .nav-link.active {
+    border-color: #c82333 !important;
+    color: #c82333 !important;
+    background-color: #f8d7da;
+    border-radius: 10px 10px 0 0;
+    font-weight: 700;
+  }
+  
+  .tab-content {
+    background-color: #fff;
+    color: #212529;
+  }
+  
+  #tips {
+    background-color: #f8d7da; 
+  }
+  
+  #tips .card {
+    border-width: 2px;
+  }
+  
+  #tips .card-title {
+    font-weight: 700;
+  }
+  
+  #tips .card-text {
+    font-size: 1rem;
+    color: #5a2128;
+  }
+  
+
+section.text-center.my-5 {
+    background-color: #f9f9f9;
+    padding: 4rem 1rem;
+    border-top: 2px solid #dc3545;
+  }
+  
+  .text-center .my-5 {
+    background-color: #212529;
+  }
+  #modal-body .p{
+color: #212529
+  }
+
+ 
+.modal-backdrop.show {
+    background-color: rgba(220, 53, 69, 0.4); 
+  }
+  
+    .modal-backdrop {
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  
+.modal-content {
+    border: 2px solid #dc3545; 
+    border-radius: 10px;
+   
+  }
+  .form-control {
+    border-color: red;
+  }
+
+.modal-content input:focus,
+.modal-content textarea:focus,
+.modal-content select:focus {
+  border: 2px solid #dc3545;
+  box-shadow: 0 0 5px rgba(220, 53, 69, 0.5); 
+  outline: none;
+}
+
+.modal-content .btn:focus,
+.modal-content .btn:hover {
+  background-color: #c82333;
+  color: #fff;
+  border-color: #dc3545;
+}
+
+.slider-img {
+    height: 500px;              
+    object-fit: contain;  
+    object-position: center;   
+    background-color: #000;
+    align-items: center;
+    align-content: center;   
+  }
+  
